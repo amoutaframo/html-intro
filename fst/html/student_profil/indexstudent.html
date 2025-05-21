@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Étudiant - Fatouma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Rounded&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto Rounded', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #f0f4f8);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .profile {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    .profile img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #00bcd4;
+    }
+
+    .profile-info {
+      flex: 1;
+    }
+
+    .profile-info h1 {
+      margin: 0;
+      font-size: 30px;
+      color: #00796b;
+    }
+
+    .profile-info p {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+
+    h2 {
+      color: #006064;
+      margin-top: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #00acc1;
+      color: white;
+    }
+
+    .media {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .media iframe, .media img {
+      flex: 1 1 480px;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact {
+      margin-top: 40px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .contact p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .contact span {
+      font-weight: bold;
+      color: #00796b;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Profil Étudiant -->
+    <div class="profile">
+      <img src="téléchargement (1).png" alt="Photo Étudiant">
+      <div class="profile-info">
+        <h1>Fatouma omar</h1>
+        <p><strong>Âge :</strong> 20 ans</p>
+        <p><strong>Filière :</strong> Génie Logiciel</p>
+        <p><strong>Université :</strong> Université de Djibouti</p>
+      </div>
+    </div>
+
+    <!-- Tableau des cours -->
+    <h2>📊 Mes Résultats</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Matière</th>
+          <th>Note /20</th>
+          <th>État</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Linux</td>
+          <td>18</td>
+          <td>✅ Acquis</td>
+        </tr>
+        <tr>
+          <td>css</td>
+          <td>15</td>
+          <td>✅ Acquis</td>
+        </tr>
+        <tr>
+          <td>html</td>
+          <td>13</td>
+          <td>⚠️ Moyen</td>
+        </tr>
+        <tr>
+          <td>javascript</td>
+          <td>17</td>
+          <td>✅ Acquis</td>
+        </tr>
+        <tr>
+          <td>Génie Logiciel</td>
+          <td>16</td>
+          <td>✅ Acquis</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Vidéos et Images -->
+    <h2>📚 Vidéos & Images Éducatives</h2>
+    <div class="media">
+      <iframe width="560" height="315" src="https://www.pinterest.com/pin/31947478600895020/"
+        title="frontend developper raqdmap" frameborder="0" allowfullscreen>
+      </iframe>
+
+      <iframe width="560" height="315" src="https://www.tiktok.com/@louis_dhanis/video/7272783239150832928"
+        title="html idea project" frameborder="0" allowfullscreen>
+      </iframe>
+      <br>
+      <br>
+
+      <img src="fb.png" alt="Modèle TCP/IP"align=" left" width="500" height="400" >
+    </div>
+    <br><br>
+     <!-- localisation -->
+     <h2>localisation</h2> 
+     <img src="téléchargement.jfif" align=" left" width="900" height="400">
+     <br>
+    <!-- Contact -->
+    <h2>📞 Contact</h2>
+    <div class="contact">
+      <p><span>Email :</span> fatoumaomar@example.com</p>
+      <p><span>Téléphone :</span> +253 77 00 00 00</p>
+      <p><span>Localisation :</span> Djibouti, République de Djibouti</p>
+    </div>
+
+    <!-- Pied de page -->
+    <div class="footer">
+      &copy; 2025 Profil Étudiant – Page créée par Fatouma Ali.
+    </div>
+
+  </div>
+</body>
+</html>
